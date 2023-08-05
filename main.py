@@ -9,16 +9,16 @@ while count <5:
   fiber_ft = int(input("\nHow many feet of fiber optic cable is needed? "))
 
   if fiber_ft <= 100:
-    cost = 0.87
+    cost = 0.88
    
   if fiber_ft > 100:
-    cost = 0.80
+    cost = 0.82
 
   if fiber_ft > 250:
-    cost = 0.70
+    cost = 0.72
 
   if fiber_ft > 500:
-    cost = 0.50
+    cost = 0.52
    
   total = (fiber_ft * cost) 
   print(f"\n{company_name.title()} wants {fiber_ft} ft. of fiber optic cable. \nYour total is ${total}")
